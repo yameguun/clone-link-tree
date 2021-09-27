@@ -16,7 +16,7 @@ export default function Home() {
         <Image className={styles.image} src={my_profile} alt="my profile image" />
       </div>
       <p className={styles.user_name}>{process.env.name}</p>
-      <p className={styles.user_profile}>地方で働くエンジニアです。DX人材になるべく日々精進。</p>
+      <p className={styles.user_profile}>地方で働くエンジニアです。DX人材になるべく日々精進。このサイトはNext.jsで作ってみました。</p>
       <a href="https://www.facebook.com/tanaka.ripper/" className={styles.links}>FACEBOOK</a>
       <a href="https://twitter.com/s_tanaka_suncac" className={styles.links}>TWITTER</a>
       <a href="https://www.wantedly.com/id/seiji_tanaka_ak" className={styles.links}>WANTEDLY</a>
