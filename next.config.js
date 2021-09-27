@@ -1,7 +1,7 @@
 module.exports = {
   reactStrictMode: true,
   env: {
-    name: '@yourname',
-    title: 'my profile titile'
+    name: '@tanaka209',
+    title: 'Seiji Tanaka'
   }
 }
