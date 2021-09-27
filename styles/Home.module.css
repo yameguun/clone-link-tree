@@ -13,7 +13,13 @@
 
 .user_name {
   text-align: center;
-  padding: 30px;
+  padding: 10px;
+}
+
+.user_profile {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .links {

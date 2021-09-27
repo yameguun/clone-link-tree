@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import my_profile from '../public/my_profile.png'
+import my_profile from '../public/avatar.png'
 
 export default function Home() {
   return (
@@ -16,6 +16,7 @@ export default function Home() {
         <Image className={styles.image} src={my_profile} alt="my profile image" />
       </div>
       <p className={styles.user_name}>{process.env.name}</p>
+      <p className={styles.user_profile}>地方で働くエンジニアです。DX人材になるべく日々精進。</p>
       <a href="https://www.facebook.com/tanaka.ripper/" className={styles.links}>FACEBOOK</a>
       <a href="https://twitter.com/s_tanaka_suncac" className={styles.links}>TWITTER</a>
       <a href="https://www.wantedly.com/id/seiji_tanaka_ak" className={styles.links}>WANTEDLY</a>
