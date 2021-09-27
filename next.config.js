@@ -1,7 +1,7 @@
 module.exports = {
   reactStrictMode: true,
   env: {
-    name: '@tanaka209',
+    name: 'たなかせいじ',
     title: 'Seiji Tanaka'
   }
 }
